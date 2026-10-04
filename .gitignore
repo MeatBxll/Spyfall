@@ -1,0 +1,73 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Coverage
+coverage/
+.coverage
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+*.pubxml.user
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# ASP.NET / development certificates
+*.pfx
+
+# User-specific configuration
+appsettings.Local.json
+appsettings.Development.Local.json
+
+# SQLite / local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Generated files
+Generated/
+
+# User-specific configuration
+appsettings.Local.json
+appsettings.Development.Local.json
+
+# SQLite / local databases
+*.db
+*.db-shm
+*.db-wal
