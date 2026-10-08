@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Spyfall.Client/Spyfall.Client.csproj" />
+  <Project Path="Spyfall.Server/Spyfall.Server.csproj" />
+  <Project Path="Spyfall.Shared/Spyfall.Shared.csproj" />
+</Solution>

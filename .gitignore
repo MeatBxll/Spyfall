@@ -9,51 +9,42 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# Visual Studio Code
-.vscode/
-
-# JetBrains Rider / ReSharper
+# Rider
 .idea/
 *.sln.iml
 
-# OS junk
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Logs
-*.log
-
-# Test results
-TestResults/
-*.trx
+# VS Code
+.vscode/
 
 # NuGet
 *.nupkg
 *.snupkg
 packages/
 
-# Coverage
+# Test results / coverage
+TestResults/
 coverage/
-.coverage
 *.coverage
 *.coveragexml
 
-# Publish output
-publish/
-*.pubxml.user
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MAUI
+*.keystore
+*.pfx
 
 # Local environment / secrets
 .env
 .env.*
 !.env.example
 
-# ASP.NET / development certificates
-*.pfx
-
-# User-specific configuration
+# Local app settings
 appsettings.Local.json
-appsettings.Development.Local.json
 
 # SQLite / local databases
 *.db
@@ -62,12 +53,3 @@ appsettings.Development.Local.json
 
 # Generated files
 Generated/
-
-# User-specific configuration
-appsettings.Local.json
-appsettings.Development.Local.json
-
-# SQLite / local databases
-*.db
-*.db-shm
-*.db-wal
