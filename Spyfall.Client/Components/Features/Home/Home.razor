@@ -1,23 +1,32 @@
+
 @page "/"
 @using Spyfall.Client.Components.Common.StyledElements
-<div>
-  <NavLink class="nav-link" href="/room-creator">Create Room</NavLink>
-  <button class="nav-link">Join Room</button>
-  <NavLink class="nav-link" href="/scenario-creator">Create Scenario</NavLink>
-  <NavLink class="nav-link" href="/settings">Settings</NavLink>
-  <button class="nav-link">Quit</button>
-  <BaseButton OnClick="StartGame">
-    Start Game
-</BaseButton>
 
-<p>@message</p>
+<div>
+    <MenuNavLink Class="menu-button" Href="/room-creator">
+        Create Room
+    </MenuNavLink>
+
+    <MenuNavLink Class="menu-button" Href="/join-room">
+        Join Room
+    </MenuNavLink>
+
+    <MenuNavLink Class="menu-button" Href="/scenario-creator">
+        Create Scenario
+    </MenuNavLink>
+
+    <MenuNavLink Class="menu-button" Href="/settings">
+        Settings
+    </MenuNavLink>
+
+    <MenuButton Class="menu-button" OnClick="Quit">
+        Quit
+    </MenuButton>
+</div>
 
 @code {
-    private string message = "";
-
-    private void StartGame()
+    private void Quit()
     {
-        message = "Let's play Spyfall!";
+        // We'll implement quitting later.
     }
 }
-</div>

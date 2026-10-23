@@ -1,0 +1,10 @@
+
+<NavLink class="@Class" href="@Href">
+    @ChildContent
+</NavLink>
+
+@code {
+    [Parameter] public string? Href { get; set; }
+    [Parameter] public string? Class { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}
