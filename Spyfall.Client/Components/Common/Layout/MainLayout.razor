@@ -1,14 +1,15 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
+<div >
     <main>
-        <div class="top-row px-4">
-            <img src="images/spyfall-logo.png" alt="Spyfall Logo" class="logo" />
-            <h1>Spyfall</h1>
-            <div></div>
+        <div class="header"> 
+            @* <img src="images/spyfall-logo.png" alt="Spyfall Logo" class="logo" /> *@
+            <div class="logo"></div>
+            <h1 class="title">Spyfall</h1>
+            <div class="profile"></div>
         </div>
 
-        <article class="content px-4">
+        <article >
             @Body
         </article>
     </main>
